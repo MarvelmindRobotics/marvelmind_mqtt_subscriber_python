@@ -14,9 +14,9 @@ To use this subscriber:
 - In Marvelmind dashboard select menu "Settings/MQTT settings"
 -   In the window select checkbox "MQTT output enable"
 -   Keep default destination settings:
-    "Destination server" - test.mosquitto.org
-    "Port" - 1883
-    "Topic folder" - marvelmind
+    "Destination server" - test.mosquitto.org <BR>
+    "Port" - 1883 <BR>
+    "Topic folder" - marvelmind 
 - Select required data to transmit by corresponding checkboxes (mobile beacon location, telemetry, IMU etc)
 - Data in JSON format should come to the python application via selected MQTT broker (test.mosquitto.org).
   See MQTT chapter in interfaces document (https://marvelmind.com/pics/marvelmind_interfaces.pdf) for more details.
