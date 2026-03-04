@@ -13,7 +13,7 @@ To use this subscriber:
   "python ./mm_mqtt_example.py" or "python3 ./mm_mqtt_example.py"
 - In Marvelmind dashboard select menu "Settings/MQTT settings"
 -   In the window select checkbox "MQTT output enable"
--   Keep default destination settings:
+-   Keep default destination settings: <BR>
     "Destination server" - test.mosquitto.org <BR>
     "Port" - 1883 <BR>
     "Topic folder" - marvelmind 
